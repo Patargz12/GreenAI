@@ -1,0 +1,7 @@
+{
+  "watch": ["server.ts"],
+  "ext": "ts,js,cjs",
+  "ignore": ["node_modules", "dist", "src"],
+  "delay": "500",
+  "exec": "npm run server:build && node server.cjs"
+}

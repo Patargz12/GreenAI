@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+@plugin "daisyui";
+
+body {
+  @apply m-0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Hide cursor/caret in input field */
+.no-caret {
+  caret-color: transparent !important;
+  -webkit-text-fill-color: black;
+  color: black !important;
+}
+
+.no-caret:focus {
+  caret-color: transparent !important;
+}
+
+.no-caret::selection {
+  background-color: transparent !important;
+}
+
+.no-caret::-webkit-selection {
+  background-color: transparent !important;
+}
+
+.no-caret::-moz-selection {
+  background-color: transparent !important;
+}
