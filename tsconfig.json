@@ -6,7 +6,9 @@
     "eslint.config.js",
     "prettier.config.js",
     "vite.config.js",
-    "server.ts"
+    "server.ts",
+    "server.cjs",
+    "server.cjs"
   ],
 
   "compilerOptions": {

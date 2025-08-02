@@ -17,7 +17,7 @@ const ChatBot: React.FC = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false)
   const [isBotTyping, setIsBotTyping] = useState<boolean>(false)
   const [apiKey, setApiKey] = useState<string>(
-    'AIzaSyC87UWjwZezAXu4sY_pcKvYWB1u3533reo',
+    import.meta.env.VITE_CHAT_API || '',
   )
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const messagesContainerRef = useRef<HTMLDivElement>(null)
