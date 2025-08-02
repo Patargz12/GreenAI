@@ -473,7 +473,7 @@ const ChatBot: React.FC = () => {
               placeholder="Ask me anything about your projects..."
               disabled={isLoading || isBotTyping}
               onKeyDown={handleKeyDown}
-              className="flex-1 px-4 py-3 border text-black border-green-200 rounded-xl focus:outline-none focus:ring-1 focus:ring-green-500 focus:border-transparent disabled:opacity-50 bg-white/90 backdrop-blur-sm no-caret"
+              className="flex-1 px-4 py-3 border text-black border-green-200 rounded-xl focus:outline-none focus:ring-1 focus:ring-green-500 focus:border-transparent disabled:opacity-50 bg-white/90 backdrop-blur-sm"
             />
             <button
               onClick={sendMessage}
